@@ -11,7 +11,11 @@
     "sass": "^1.54.9"
   },
   "scripts": {
+    "start": "node esbuild-dev.config.js",
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets",
     "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.3"
   }
 }
