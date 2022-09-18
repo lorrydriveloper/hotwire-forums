@@ -7,4 +7,10 @@ class MainControllerTest < ActionDispatch::IntegrationTest
     get root_url
     assert_response :success
   end
+
+  test 'should display flash messages' do
+    get root_url
+    assert_select '.alert-info', text: 'hello'
+    assert_select '.alert-warning', text: 'Error'
+  end
 end
