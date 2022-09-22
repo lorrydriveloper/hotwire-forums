@@ -8,10 +8,12 @@ one:
   id: 1
   email: test@email.com
   username: test1
+  encrypted_password: <%= User.new.send(:password_digest, 'password') %>
 # column: value
 #
 two:   
   id: 2
   email: test2@email.com
   username: test2
+  encrypted_password: <%= User.new.send(:password_digest, 'password') %>
 # column: value

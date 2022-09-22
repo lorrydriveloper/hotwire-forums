@@ -1,13 +1,22 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  id: 100
+  name: Discussion 1
   pinned: false
-  close: false
+  close: true
   user_id: 1
 
 two:
-  name: MyString
-  pinned: false
+  id: 101
+  name: Discussion 2
+  pinned: true
   close: false
+  user_id: 2
+
+three:
+  id: 102
+  name: Discussion 3
+  pinned: true
+  close: true
   user_id: 2

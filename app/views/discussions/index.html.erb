@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-between align-items-center">
+  <h1>Discussions</h1>
+  <%= link_to 'New Discussion', new_discussion_path, class: 'btn btn-primary' %>
+</div>
+<div class="row mt-4">
+  <div class="col">
+    <div id="discussions">
+      <% if @discussions.count > 0 %>
+        <%= render @discussions %>
+      <% else %>
+        No discussions Yet
+      <% end %>
+    </div>
+  </div>
+</div>
