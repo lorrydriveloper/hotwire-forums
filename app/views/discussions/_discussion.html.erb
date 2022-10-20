@@ -3,4 +3,7 @@
     <%= discussion.name %>
   </h2>
   Pinned: <%= discussion.pinned? %> | Closed: <%= discussion.close? %>
+  <div>
+    <%= link_to 'Edit', edit_discussion_path(discussion) %>
+  </div>
 </div>
