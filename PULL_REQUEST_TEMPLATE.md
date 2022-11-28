@@ -1,12 +1,11 @@
-## Issue ticket number and link
+## :memo: Description
 
-<!-- Please paste your ticket URL here.-->
+<!-- please change **** with your Jira number-->
 
-### Description
-
+- **Issue ticket number [SB-\*\***](https://superbyteteam.atlassian.net/browse/SB-****)\*\*
 <!-- Please describe your pull request.-->
 
-### Your checklist for this pull request
+## :ballot_box_with_check: Your checklist for this pull request
 
 **Please check if the PR fulfills these requirements**
 
@@ -31,7 +30,7 @@
 
 <!-- If this introduces a breaking change, please describe the impact and migration path for existing applications below. -->
 
-## Does this require a Byte Update?
+## :mechanical_arm: Does this require a Byte Update?
 
 - [] Yes
 - [] No
@@ -39,15 +38,15 @@
   <!-- EXAMPLE => https://github.com/cogitorteam/byte/pull/125. -->
   <!-- If Yes, please name the version it needs or if needs to be released before this can get merged. -->
 
-## Other information
+## :information_source: Other information
 
 <!-- Any other information that is important to this PR such as screenshots of how the component looks before and after the change. -->
 
 - **Does this PR add or change the UI please paste here some screenshots below**
 <!-- to add new screenshots just drag and drop here your screenshots. -->
 
-## Testing Information
+## :test_tube: Testing Information
 
   <!-- Any information that is important to the Support Team such as possible new extra modules that need to be tested or could suffer changes in their behavior. -->
 
-💔Thank you!
+:heart: Thank you!
