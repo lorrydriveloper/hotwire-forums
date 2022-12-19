@@ -7,7 +7,15 @@ class Discussion < ApplicationRecord
     'something'
   end
 
-  validates :name, presence: true
+  validates :name, presence: true, length: { maximum: 50 }
+
+  def discussion_topic
+    'Topic'
+  end
+
+  def bla
+    'bli'
+  end
 
   def other_thing
     '4'
