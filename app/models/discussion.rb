@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 class Discussion < ApplicationRecord
-  belongs_to :user, default: -> { Current.user || 'Holy-sit-2' }
+  belongs_to :user, default: -> { Current.user || 'Holy' }
 
   def self.to
-    'something'
+    'something really different'
   end
 
   validates :name, presence: true, length: { maximum: 50 }
