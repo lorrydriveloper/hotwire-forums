@@ -1,53 +1,53 @@
-## Issue ticket number and link
+## :memo: Description
 
-<!-- Please paste your ticket URL here.-->
+<!-- please change **** with your Jira number-->
 
-### Description
-
+**Issue ticket number [SB-0000](https://superbyteteam.atlassian.net/browse/SB-0000)**
 <!-- Please describe your pull request.-->
 
-### Your checklist for this pull request
+## :ballot_box_with_check: Your checklist for this pull request
 
 **Please check if the PR fulfills these requirements**
 
-- [ ] The PR title follows our guidelines and starts with SB-\*\*\*\*.
-- [ ] The commit message follows our guidelines and has Prefixed SB-\*\*\*\*.
-- [ ] You have finished to code and you are not going to continue committing unless changes are requested.
-- [ ] I have performed a self-review of my code.
-- [ ] This PR has added/updated documentation.
+<!-- Please add an X inside of the appropriate options.-->
+
+<!-- Please delete options that are not relevant.-->
+
+- [] The PR title & commits follow our guidelines and start with SB-\*\*\*\*.
+- [] You have finished to code and will not continue committing unless changes are requested.
+- [] I have performed a self-review of my code.
+- [] This PR has added/updated documentation for any new or changed code.
+- [] Have you recorded your time on the Jira Ticket?
 
 **What kind of change does this PR introduce?**
 
 <!-- Please delete options that are not relevant.-->
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] New feature improvement (improve existing feature behavior non-breaking change)
-- [ ] Performance/Refactor (improve existing codebase with non-breaking change)
-
-## Does this require a Byte Update?
-
-- [ ] Yes
-- [ ] No
-  <!-- If Yes please link to the PR on byte. -->
-  <!-- If Yes please name the version it needs. -->
-
-## Does this introduce a breaking change?
-
-- [ ] Yes
-- [ ] No
+- [] Bug fix (non-breaking change which fixes an issue)
+- [] New feature (non-breaking change which adds functionality)
+- [] Feature improvement (improve existing feature behavior non-breaking change)
+- [] Performance/Refactor (improve existing codebase with non-breaking change)
+- [] Breaking Change
 
 <!-- If this introduces a breaking change, please describe the impact and migration path for existing applications below. -->
 
-## Other information
+## :mechanical_arm: Does this require a Byte Update?
 
-<!-- Any other information that is important to this PR such as screenshots of how the component looks before and after the change. -->
+- [] Yes
+- [] No
+  <!-- If Yes, please link to the PR on byte. -->
+  <!-- EXAMPLE => https://github.com/cogitorteam/byte/pull/125. -->
+  <!-- If Yes, please name the version it needs or if it needs to be released before this can merge. -->
 
-- **What is the current behavior?** (You can also link to an open issue here)
+## :information_source: Other information
 
-- **What is the new behavior (if this is a feature change)?**
+<!-- Any other information important to this PR, such as screenshots of how the component looks before and after the change. -->
 
-- **Does this PR add or change the UI please paste here some screenshots below**
-<!-- to add new screenshots just drag and drop here your screenshots. -->
+- **Does this PR add or change the UI? Please paste here some screenshots below**
+<!-- to add new screenshots, drag and drop your screenshots here. -->
 
-💔Thank you!
+## :test_tube: Testing Information
+
+  <!-- Any information important to the Support Team, such as possible new extra modules that need to be tested or could suffer changes in their behavior. -->
+
+:heart: Thank you!
