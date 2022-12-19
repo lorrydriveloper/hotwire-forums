@@ -10,7 +10,7 @@ class Discussion < ApplicationRecord
   validates :name, presence: true, length: { maximum: 50 }
 
   def discussion_topic
-    'Topic'
+    'Topic 2'
   end
 
   def bla
