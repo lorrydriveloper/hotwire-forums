@@ -4,7 +4,7 @@ class Discussion < ApplicationRecord
   belongs_to :user, default: -> { Current.user || 'Holy-sit-2' }
 
   def self.to
-    'something'
+    'something or not'
   end
 
   validates :name, presence: true, length: { maximum: 50 }
