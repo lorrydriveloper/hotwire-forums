@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Discussion < ApplicationRecord
-  belongs_to :user, default: -> { Current.user || nil }
+  belongs_to :user, default: -> { Current.user }
 
   def self.to
     'something'
