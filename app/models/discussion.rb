@@ -3,6 +3,10 @@
 class Discussion < ApplicationRecord
   belongs_to :user, default: -> { Current.user }
 
+  def self.to
+    'something'
+  end
+
   validates :name, presence: true, length: { maximum: 50 }
 
   def discussion_topic
@@ -12,4 +16,9 @@ class Discussion < ApplicationRecord
   def bla
     'bli'
   end
+
+  def other_thing
+    '4'
+  end
+
 end
