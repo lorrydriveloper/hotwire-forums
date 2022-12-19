@@ -8,4 +8,8 @@ class Discussion < ApplicationRecord
   def discussion_topic
     'Topic'
   end
+
+  def bla
+    'bli'
+  end
 end
